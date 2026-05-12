@@ -1,4 +1,5 @@
 ##################### Extra Hard Starting Project ######################
+import os
 import random
 
 import pandas as pd
@@ -21,8 +22,10 @@ print(today_month)
 
 
 
-my_email = "oneglobalinc8888@gmail.com"
-password = "drhqgrxprsmhjckn"
+MY_EMAIL = os.environ.get("oneglobalinc8888@gmail.com")
+MY_PASSWORD = os.environ.get("drhqgrxprsmhjckn")
+
+
 
 with open("./letter_templates/letter_1.txt", "r") as f:
     letter_1 = f.read()
