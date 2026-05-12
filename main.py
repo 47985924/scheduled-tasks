@@ -22,8 +22,8 @@ print(today_month)
 
 
 
-MY_EMAIL = os.environ.get("my_email")
-MY_PASSWORD = os.environ.get("password")
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("PASSWORD")
 
 
 
