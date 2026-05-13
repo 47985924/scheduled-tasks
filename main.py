@@ -3,7 +3,7 @@ import os
 from twilio.rest import Client
 from twilio.http.http_client import TwilioHttpClient
 import pandas as pd
-proxy_client = TwilioHttpClient(proxy={'http': os.environ['http_proxy'], 'https': os.environ['https_proxy']})
+
 
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
